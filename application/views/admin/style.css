@@ -1,0 +1,134 @@
+.bold {
+	font-weight:bold;
+}
+.error {
+	color:red;
+	font-size:17px;
+}
+
+.iconss {
+	/*font-size:20px; font-weight:200;*/
+	font-size: 1.5em;
+	padding: 0 .3em;
+}
+
+.iconss:last-child {
+	/*padding-left:14px;*/
+}
+
+#tbl_info {
+	display:none;
+}
+
+table.dataTable tbody th, table.dataTable tbody td {
+	padding: 11px 8px 8px 8px !important;
+	vertical-align: middle;
+	text-align:center;
+}
+.panel_toolbox>li>a:hover,.panel_toolbox>li>a:focus {
+    background: #17927a !important;
+}
+input[type=number] {
+    height: 35px;
+}
+
+input[type=number]:hover::-webkit-inner-spin-button {
+    width: 14px;
+    height: 35px;
+}
+.nav-md .container.body .right_col {
+    /* padding: 10px 20px 0; */
+		padding:10px !important;
+    margin-left: 0px !important;
+}
+.main_container .top_nav {
+    display: block;
+    margin-left: 0px !important;
+}
+.maxi {
+	max-width:100%;
+}
+
+.top_nav .navbar-right {
+    margin: 0;
+    /*width: 15%;
+    float: right;
+		padding-top: 20px;
+    padding-right: 13px;*/
+    white-space: nowrap;
+}
+.name:hover {
+	background-color:transparent !important;
+}
+@media print {
+  .hidden-print {
+    display: none !important;
+  }
+}
+
+#mbody {
+	overflow-y: scroll;
+}
+li.active {/*background-color: #ccc;*/background-color: #15abe5;}
+.incenter {
+	text-align:center;
+}
+
+
+
+.status {
+    color: #fff;
+    font-weight: bold;
+    text-transform: uppercase;
+    padding: 5px 10px;
+    line-height: 1;
+    text-align: center;
+    vertical-align: baseline;
+    font-size: .75em;
+    width: 10em !important;
+    letter-spacing: .1em;
+    border-radius: 3px;
+    margin: 0 auto;
+}
+
+.aktiv, .geprueft {background-color: #9b0;}
+.gesperrt, .ungeprueft {background-color: #d24;}
+.quartal {background-color: #2196f3;}
+
+
+.fa-check-circle:before {
+	color: #9b0 !important;
+}
+
+.urlaubsanspruch th {width:33.3%}
+
+.weekday a.btn {width:12em !important;}
+
+
+.table.details th, .table.details td {text-align: left;}
+.table.details th {width: 20em;}
+
+
+.tbl_notif_email {text-align:left; padding-left:1em !important;}
+
+.navbar-right li div {float:left;padding-top:4px;line-height:56px;}
+.navbar-right li a {float:right;margin-right:9px;}
+
+.dashboard_big_icon {margin-right:1em;}
+
+.menu_logout {padding-top: 0 !important;}
+.menu_logout i {padding-top:4px; line-height: 56px;}
+
+.avg {display: inline-block; line-height: 22px; border-radius: 4px; width: 7em; color: #fff; text-transform:uppercase;}
+.avg_green  {background-color:#9b0;}
+.avg_yellow {background-color:#ffc241;}
+.avg_red    {background-color:#d24;}
+.avg_kontrolle {font-size: .85em; width:12em !important; letter-spacing: .1em;}
+
+.se_del.sweet-alert button.confirm {
+	/*background-color: #d9534f;
+	border-color: #d43f3a;*/
+
+	background-color: #ff8239 !important;
+	border-color: #d43f3a;
+}

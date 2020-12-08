@@ -1,0 +1,24 @@
+2020-04-13 22:54:31 u99977024 zQyQUJ-1jhZBw3QSt-00LZOX |< REMOTE=87.140.78.0 SCRIPT=/index.php -- /usr/sbin/sendmail -oi -f no-replay@zehm-vs.org -t
+2020-04-13 22:54:31 u99977024 zQyQUJ-1jhZBw3QSt-00LZOX <= S=no-replay@zehm-vs.org SZ=913 D=0 SID=816337709
+2020-04-13 22:54:31 u99977024 zQyQUJ-1jhZBw3QSt-00LZOX => zvs_bereichsleiter@zehm-vs.org msmtp.kundenserver.de[172.19.35.7] 250 Requested mail action okay, completed: id=1MTznO-1jp0uz3cag-00R4CU
+2020-04-13 23:05:12 u99977024 zRY2UH-1j7fyX0gTV-00uUbE |< REMOTE=87.140.78.0 SCRIPT=/index.php -- /usr/sbin/sendmail -oi -f no-replay@zehm-vs.org -t
+2020-04-13 23:05:12 u99977024 zRY2UH-1j7fyX0gTV-00uUbE <= S=no-replay@zehm-vs.org SZ=913 D=0 SID=816337709
+2020-04-13 23:05:12 u99977024 zRY2UH-1j7fyX0gTV-00uUbE => zvs_bereichsleiter@zehm-vs.org msmtp.kundenserver.de[172.19.35.7] 250 Requested mail action okay, completed: id=1MXGes-1jlhhe0thu-00YeL8
+2020-04-14 08:31:32 u99977024 zRdr7O-1jF0C213vK-011i6Q |< REMOTE=85.212.50.0 SCRIPT=/index.php -- /usr/sbin/sendmail -t -i -f no-replay@zehm-vs.org
+2020-04-14 08:31:32 u99977024 zRdr7O-1jF0C213vK-011i6Q <= S=no-replay@zehm-vs.org SZ=12322 D=0 SID=816337709
+2020-04-14 08:31:33 u99977024 zRdr7O-1jF0C213vK-011i6Q => service@zehm-vs.de msmtp.kundenserver.de[172.19.35.7] 250 Requested mail action okay, completed: id=1MkYkI-1izfCc3zzC-00m1K8
+2020-04-14 08:31:33 u99977024 zRlrLH-1ipSaM0CQ7-00ZyUy |< REMOTE=85.212.50.0 SCRIPT=/index.php -- /usr/sbin/sendmail -t -i -f no-replay@zehm-vs.org
+2020-04-14 08:31:33 u99977024 zRlrLH-1ipSaM0CQ7-00ZyUy <= S=no-replay@zehm-vs.org SZ=12332 D=0 SID=816337709
+2020-04-14 08:31:33 u99977024 zRlrLH-1ipSaM0CQ7-00ZyUy => zvs_neuer_Antrag@zehm-vs.org msmtp.kundenserver.de[172.19.35.7] 250 Requested mail action okay, completed: id=1MJVY8-1jhxoj0OvQ-00JqqE
+2020-04-14 08:31:33 u99977024 zR06FN-1jjupo0bSL-00Uq35 |< REMOTE=85.212.50.0 SCRIPT=/index.php -- /usr/sbin/sendmail -t -i -f no-replay@zehm-vs.org
+2020-04-14 08:31:33 u99977024 zR06FN-1jjupo0bSL-00Uq35 <= S=no-replay@zehm-vs.org SZ=12024 D=0 SID=816337709
+2020-04-14 08:31:33 u99977024 zR06FN-1jjupo0bSL-00Uq35 => prellberg@zehm-vs.de msmtp.kundenserver.de[172.19.35.7] 250 Requested mail action okay, completed: id=1MuUza-1j7GQ33UME-00rVG1
+2020-04-14 12:08:31 u99977024 zQwVsK-1jeryF36sm-00It0j |< REMOTE=85.212.50.0 SCRIPT=/index.php -- /usr/sbin/sendmail -t -i -f no-replay@zehm-vs.org
+2020-04-14 12:08:31 u99977024 zQwVsK-1jeryF36sm-00It0j <= S=no-replay@zehm-vs.org SZ=11978 D=0 SID=816337709
+2020-04-14 12:08:31 u99977024 zQwVsK-1jeryF36sm-00It0j => prellberg@zehm-vs.de msmtp.kundenserver.de[172.19.35.7] 250 Requested mail action okay, completed: id=1MF3Y8-1jUwKd3MCG-00FTBi
+2020-04-14 12:08:31 u99977024 zRd1db-1jFjdU3jwx-010QgK |< REMOTE=85.212.50.0 SCRIPT=/index.php -- /usr/sbin/sendmail -t -i -f no-replay@zehm-vs.org
+2020-04-14 12:08:31 u99977024 zRd1db-1jFjdU3jwx-010QgK <= S=no-replay@zehm-vs.org SZ=11975 D=0 SID=816337709
+2020-04-14 12:08:31 u99977024 zRd1db-1jFjdU3jwx-010QgK => arnold@zehm-vs.de msmtp.kundenserver.de[172.19.35.7] 250 Requested mail action okay, completed: id=1MCbVD-1jXP2q3tUR-009ifL
+2020-04-14 12:08:31 u99977024 zRe86J-1jEdho42rf-011X87 |< REMOTE=85.212.50.0 SCRIPT=/index.php -- /usr/sbin/sendmail -t -i -f no-replay@zehm-vs.org
+2020-04-14 12:08:31 u99977024 zRe86J-1jEdho42rf-011X87 EE invalid mail addresses: zvs_genehmigter_Antrag
+2020-04-14 12:08:31 u99977024 zRe86J-1jEdho42rf-011X87 EE no valid recipient addresses

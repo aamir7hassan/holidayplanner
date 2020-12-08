@@ -1,0 +1,42 @@
+
+th{
+
+  border-bottom:1px solid;
+
+  border-top:1px solid;
+
+  padding:5px;
+
+}
+
+td{
+
+  padding-top:5px;
+
+  padding-bottom:5px;
+
+  border:1px solid;
+
+}
+.parent {
+  position:relative;
+  width:30px;
+}
+.left {
+  position: absolute;
+  top: -10px;
+  width:15px;
+  background-color:#ccc;
+}
+.right{
+  top:-10px;
+  position:absolute;
+  width:15px;
+  left:15px;
+  background-color:#ccc
+}
+@media print {
+  .hidden-print {
+    display: none !important;
+  }
+}

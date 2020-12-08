@@ -1,0 +1,351 @@
+* {margin: 0;	padding: 0;	border-width: 0; font-family: "Roboto";	box-sizing: border-box;}
+
+body {text-align: left;	font-size: 1em; line-height: 1.42857; background: #fff; color: #333;}
+@viewport {width: 1240px; zoom: 1;}
+
+a {/*color:#009fdf;*/color:#1ca7e0;}
+p {margin-bottom:1.5em;}
+
+li {list-style: none;}
+
+.clear {clear: both; line-height: 0; font-size: 0;}
+.cna {cursor: not-allowed;}
+
+input[type=submit], input[type=checkbox], th, label, input[type="button"] {cursor: pointer;}
+form textarea {height:inherit; resize:vertical;}
+
+	#header, #contentC, #footer {max-width: 1240px; margin: 0 auto;}
+	#headerC, #footerC {background: #101f34; color: #fff;}
+/* ###### Header ###### */
+	#header {text-align: center; position: relative; font-size: 10px;}
+
+  #header .menu {float: right; padding-right: 1.7em;}
+	#header .menu ul {text-transform: uppercase; margin-right: 0px; font-size: 1.1em; font-weight: 600; letter-spacing: 1.5px;}
+
+	#header .menu ul li {position: relative; float: left; margin-right: 2px;}
+	#header .menu ul li a {color: #9f9f9f; display: block; padding: .2em 1.7em 0 1.7em; /*height: 3.5em;*/ line-height: 65px; text-decoration: none; z-index: 200;}
+  #header .menu ul li a:hover {color: #fff;}
+	#header .hma {background: #444; color: #fff !important;}
+	#header #bo.hma {background: #1ca7e0;}
+
+	#menu_subC {border-bottom: #ddd 1px solid; background: #f2f2f2;}
+	#menu_subC ul {width: 100%; max-width: 1240px; margin: 0 auto; padding: 0 1.214em;}
+	#menu_subC li {display: inline;}
+	#menu_subC a {color: #888; text-decoration: none; display: inline-block; padding-right: .75em; padding-left: .75em;}
+	#menu_subC li:first-child a {margin-left: -.75em;}
+	#menu_subC a:hover {color: #333;}
+	#menu_subC a.active {color: #333; font-weight: 500; border-bottom: 2px solid #1ca7e0;}
+	#menu_subC a {line-height: 3em;}
+
+	#menu_tab {border-bottom: 1px solid #eaebec; margin-bottom: 2em; height: 35px}
+	#menu_tab h2 {font-weight: 400; float: left;}
+	#menu_tab div {float: right;}
+	#menu_tab div a {border-top: 2px solid transparent; color: #767d84; font-size: .75em; line-height: 1; margin: 0 2px 0 0; padding: 10px 12px; float: left; text-decoration: none;     border-radius: 4px 4px 0 0;}
+	#menu_tab div .active {border: 1px solid #eaebec; border-top: 2px solid #00a0e3; border-bottom-color: #fff;}
+	#menu_tab div a:last-child {margin-right: 0;}
+
+	#header .hlogo img {float: left; margin-left: 1.7em; height: 40px; margin-top: 15px;}
+/* ###### Header ###### */
+
+/* ###### Content ###### */
+	#contentC {background: #fff; position: relative; z-index: 10; padding: 1.8em 1.214em 6.8em 1.214em;}
+
+	#contentC a {text-decoration: none; outline: 0px none; line-height: inherit;}
+	#contentC a:hover {/*transition: all 0.2s ease-in-out 0s; background-color: #212121;*/}
+
+/* ###### Content ###### */
+
+/* ###### Footer ###### */
+	#footerC {}
+	#footer {padding: 0 1.7em 0 1.2em; color: #9F9F9F;}
+
+	#footer #copyrightC, #footer div:last-child {width:50% !important;}
+	#footer #copyrightC {float:left;}
+	#footer #copyright {height:67px; display:table-cell; vertical-align:middle;}
+	#footer #copyright img {height:25px; display:block;}
+	#footer .menu {float:right;}
+	#footer .menu ul li {float:right; padding: 1em 0;}
+	#footer .menu ul li a {font-size:0.6875em; color:#9f9f9f; display:block; /*line-height:61px;*/ text-decoration:none; text-transform:uppercase; padding:6px 1.125em 0 0;}
+	#footer .menu ul li a:hover, #footer .menu .hma {color:#fff;}
+/* ###### Footer ###### */
+
+
+h1, h2, h3, h4, h5, h6 {font-weight: 300; color: #4C4C4C; /*padding-top: 0.273em;*/ line-height: 1.15538em; padding-bottom: 0.273em;}
+h1 {font-size: 2.25em; margin-bottom: .5em; text-transform:uppercase;}
+h2 {font-weight: 400; margin-bottom: 0.694em;}
+
+#createNewProfile input[type="text"], #createNewProfile input[type="password"], input[type="submit"], #createNewProfile select#country,
+#login input, #mp-submit, select, textarea, input[type="text"], input[type="button"]#upload-submit {margin-bottom: 15px; box-shadow: none !important; display: block; width: 100%; /*max-width: 500px;*/ height: 42px; padding: 6px 12px; font-size: 1rem; line-height: 1.43; color: #000; background-color: #fff; border: 1px solid #c0c0c0; border-radius: 4px; outline: none;}
+#createNewProfile input[type="submit"] {font-weight: 300; color: #fff !important; background: #89a; border: 1px solid #89a; margin-top: 3em;}
+#createNewProfile input[type="submit"]:hover, #login_cnp a:hover {background: #212121; border: 1px solid #212121; transition: all 0.2s ease-in-out 0s;}
+#login input[type="submit"], #mp-submit, input[type="button"]#upload-submit, input[type="submit"]#upload-submit2, input[type="submit"]#edit-submit, input[type="submit"]#bo-submit {margin-bottom: .2em; font-weight: 300; color: #fff !important; background: #1ca7e0; border: 1px solid #1ca7e0;}
+#login input[type="submit"]:hover, #mp-submit:hover, input[type="button"]#upload-submit:hover, input[type="submit"]#upload-submit2:hover, input[type="submit"]#edit-submit:hover, input[type="submit"]#bo-submit:hover {background: #27b; border: 1px solid #27b; transition: all 0.2s ease-in-out 0s;}
+#login input[type="text"]:focus, #login input[type="password"]:focus, #createNewProfile input[type="text"]:focus, #createNewProfile input[type="password"]:focus, #createNewProfile select#country:focus, select:focus, input[type="text"]:focus, textarea:focus {border: 1px solid #08c; box-shadow: none; outline: none;}
+
+#upload-submit {margin-top: 2em; margin-bottom: 0 !important;}
+#upload-submit2, #bo-submit, #edit-submit {float: right; margin: 1em 0px 2em !important; max-width: 300px !important;}
+dd#progressC {line-height: 0 !important;}
+dd#progressC #progress {vertical-align: top; width: 100%; max-width: 500px; height: 4px; background: #fff;}
+progress {-webkit-appearance: none; -moz-appearance: none; appearance: none; border: none;}	
+progress[value]::-webkit-progress-bar, progress[value]::-webkit-progress-bar {background-color: #fff;}
+progress::-moz-progress-bar {background: #43a1d5 !important;}
+progress::-webkit-progress-value {background: #43a1d5 !important;}
+
+
+#createNewProfile select#country {padding-left: 8px;}
+#createNewProfile select#country option {padding-left: 11px;}
+#createNewProfile #cnp_cb_tac {padding-top: 1rem;}
+#createNewProfile #cnp_cb_tac input {margin-right: .5rem;}
+
+#login .site-column-left, #login .site-column-right {width: 50%; float: left; min-height: 330px;}
+#login .site-column-left {border-right: 1px solid #eee;}
+#login .site-column-right {padding-left: 3.125em;}
+.site-column-right img {height: 175px; display: block; margin: -.5em 0 .5em 0 !important;}
+.site-column-right a i {font-size: 1.25em;}
+
+#login .site-colum-btn-space {height: 9em;}
+
+#login_cnp {max-width: 300px; text-align: center;}
+#login_cnp a {padding: 0 2em; font-size: 0.875rem; height: 42px; line-height: 42px; display: block; text-decoration: none!important; border: none; background-color: #89a; border: 1px solid #89a;border-radius: 4px; color: #fff; font-weight: 300; min-width: 240px;}
+.login_cnp_center {max-width:500px !important; margin:0 auto; margin-top:2em;}
+
+#login form {max-width: 500px; padding-right: 1.2em; font-size: 1em;}
+#login a#fpw, #login a#cpw {border-bottom: none; color: #333; font-size: 0.9em;}
+#login a#fpw:hover, #login a#cpw:hover {text-decoration: underline; background: inherit;}
+#login #fpw {float: left;}
+#login #cpw {float: right;}
+
+
+.i_row {margin-bottom: 15px;}
+.i_row input {display: inline !important; margin-bottom: 0 !important;}
+.cnp_err {display: inline-block; color: #b22; margin-left: .7em; padding-top: .25em;}
+.err_class input {border: 1px solid #b22 !important;}
+.err_class input:focus {border: 2px solid #b22 !important;}
+#agree_tac.err_class {margin-left: 3px; outline: 3px solid #b00 !important;}
+.err_box {margin: 0 0 1.25em 0px; border: 1px solid #b22; border-radius: 4px; line-height: 1.25em; padding: 0.8em; color: #b22; background-color: #fee;}
+
+.info_box {background-color: #9AA; line-height: 1.25em; padding: 0.8em; margin: 0 0 1.25em 0px; color: #fff; font-weight: 300;}
+.info_box2 {background-color: #46A; line-height: 1.25em; padding: 0.8em; margin: 0 0 1.25em 0px; color: #fff; font-weight: 300;}
+.info_box2 i.fa {margin-right:.4em}
+.text-red {background-color: #b22; color: #fff; font-style: italic; font-weight: 300; padding: .3em;}
+
+#home_header {text-align: center; padding: 1.8em; color: #333; background-color: #f2f2f2;}
+#home_header p:first-child {font-size: 2em; color: #009fdf;}
+#home_header p {max-width: 1240px; margin: 0px auto; line-height: 1.2em; padding: 0px 1.214em 0.1em; font-size: 1.25em;}
+#trader_database {padding-bottom: .8em; max-width: 1240px; margin: 0px auto;}
+#trader_database h2 {font-weight: 300; margin: .75em 0 .5em 0; font-size: 2.3em; text-align: center;}
+#trader_database ul {padding-left: 0;}
+#trader_database ul li {list-style: disc; margin-left: 1em; line-height: 1em;}
+#trader_database .reason {text-align: center; width: 40%; float: left; margin: 0px 5% 2em 5%;}
+#trader_database .last {margin: 0 30%;}
+#trader_database .reason i {font-size: 65px; margin-bottom: 0.1em;}
+#trader_database .reason p {line-height: 1em;}
+
+#myProfile dl {margin-top: 1.7em;}
+#myProfile dd dl {display: inline-block;}
+#myProfile dl dt {font-weight: bold;}
+#myProfile dd div div, .cat div div {float: left; white-space: nowrap; min-width: 7.5em;}
+#myProfile dd label, .cat label {margin: 0 1.5em 0 0 !important;}
+#myProfile dd label input, #myProfile dd div > input {margin-right: .5em !important;}
+#myProfile input[type="text"] {padding-top: 0px; padding-bottom: 0px;}
+
+#myProfile #cfds dd div div {min-width: 14em;}
+#myProfile #mp-submit {margin-top: 4em;}
+
+#myProfile input[type="checkbox"]#cbforex  ~ #pairs,
+#myProfile input[type="checkbox"]#cbmetals  ~ #metals,
+#myProfile input[type="checkbox"]#cbcfds  ~ #cfds,
+#myProfile input[type="checkbox"]#cblive  ~ #account_time,
+#myProfile input[type="radio"]#cbtt  ~ #tt_size,
+#myProfile input[type="checkbox"]#st_cb_zulu  ~ #st_txt_zulu,
+#myProfile input[type="checkbox"]#st_cb_etoro  ~ #st_txt_etoro,
+#myProfile input[type="checkbox"]#st_cb_myfxbook  ~ #st_txt_myfxbook,
+#myProfile input[type="checkbox"]#st_cb_other  ~ #st_txt_other {display:none; width: 100%;}
+
+#myProfile input[type="checkbox"]:checked#cbforex  ~ #pairs,
+#myProfile input[type="checkbox"]:checked#cbmetals  ~ #metals,
+#myProfile input[type="checkbox"]:checked#cbcfds  ~ #cfds,
+#myProfile input[type="checkbox"]:checked#cblive  ~ #account_time,
+#myProfile input[type="radio"]:checked#cbtt  ~ #tt_size,
+#myProfile input[type="checkbox"]:checked#st_cb_zulu  ~ #st_txt_zulu,
+#myProfile input[type="checkbox"]:checked#st_cb_etoro  ~ #st_txt_etoro,
+#myProfile input[type="checkbox"]:checked#st_cb_myfxbook  ~ #st_txt_myfxbook,
+#myProfile input[type="checkbox"]:checked#st_cb_other  ~ #st_txt_other {display:inline-block;}
+
+#myProfile label {line-height: 1.5em;}
+#myProfile #trading_style div {clear: left;}
+#myProfile select, #backoffice .tbl_status select {max-width: 14em; height: inherit; padding: 0 .25em !important; margin-bottom: 0 !important;}
+#myProfile select#tt_size {max-width: 18.5em !important;}
+#myProfile select option option {padding-left: .42em;}
+#myProfile textarea {height: inherit;}
+#myProfile #daily_volume input[type="text"], #myProfile #leverage input[type="text"] {height: 2.25em;}
+
+#social_trading div div {clear:left;}
+#social_trading label {min-width: 5em; display: inline-block; line-height: 1.5em;}
+#social_trading input[type="text"] {height: 1.5em; margin: 0;}
+
+table#tbl_personal {border: 1px solid #bbb !important;}
+table#tbl_personal td {border: none; border-bottom: 1px solid #ccc;}
+#tbl_personal td {width: 37.5%; line-height: 1.125em; /*font-size: .875em;*/}
+#tbl_personal td.col {width: 12.5%; background: #eee; text-align: right; white-space: nowrap;}
+#tbl_personal tr:hover {background-color:inherit !important; color:inherit;}
+#tbl_personal tr:last-child td {border: none;}
+
+fieldset {border: 1px solid #bbb; border-radius: 4px; padding: 10px; /*margin-top: 0.61425em;*/ margin-top: -5px;}
+fieldset legend {font-size: .9em; padding: 0px 5px; margin-left: -5px;}
+
+#f.fupload dl {text-align: left; line-height: 1.75em;}
+#f.fupload dt {font-weight: bold;}
+
+#f.fupload #filetypes {display: none; margin-top: 1em;}
+#f #filetypes i {color: #aaa; font-style: normal;}
+
+#f #fileA {margin-top: 2em;}
+
+#f .clrFile {display: block; margin-top: 4px; margin-left: 1px; line-height: 1em; font-size: 0.8em !important;}
+#f .clrFile a {border: 0; text-decoration: none !important;}
+
+.cat label input {margin-right: 0.5em !important;}
+.cat div div {min-width: inherit;}
+#f2 .cat {line-height: 2.3em;}
+#f2 .cat>div {margin-left: 10px;}
+
+#f2 {margin-top: 4em;}
+
+table {width: 100%; max-width: 100%; /*height: 100%;*/ border-bottom: 1px solid #ddd; border-spacing: 0px;}
+table > thead > tr > th {vertical-align: bottom; border-bottom: 1px solid #ddd;}
+table tr > th, table tr > td {padding: 8px 8px 6px; line-height: 1.42857; /*vertical-align: top;*/ border-top: 1px solid #ddd;}
+
+.tbl_name {text-align: left;}
+.tbl_upl {width: 14%;}
+.tbl_upl, .tbl_size {text-align: right;}
+.tbl_cat_upload {width: 14em !important; text-align: center;}
+.tbl_size {width: 10%;}
+
+.tbl_name a {margin-left: 0.5em;}
+.tbl_id, .tbl_markets, .tbl_status {text-align: center;}
+.tbl_id {width: 6em; height: 100%;}
+td.tbl_id {padding: 0 !important;}
+.tbl_id a {display: table; width: 100%; height: 100%;}
+.tbl_id a:hover {text-decoration: underline !important;}
+.tbl_id a, .tbl_id div {padding: 8px 8px 6px;}
+.tbl_markets, .tbl_status {width: 9em !important;}
+
+table a {border: 0 !important; color: #1ca7e0;}
+table a:hover, .info_box a:hover {background: inherit !important; text-decoration: underline !important;}
+
+.info_box a {border: 0 !important; color: #000 !important;}
+
+.tbl_del {width: 1%; text-align: center;}
+.tbl_del .fa {line-height: 1.63em !important;}
+.tbl_del input {vertical-align: top; margin-top: 0.32em;}
+#f .fa, #f2 .fa {font-size: 0.875em !important;}
+
+.tbl_cat_upload select {max-width: 14em; height: 1.5em; padding: 0 .25em !important; margin: 0px auto; border: 0; border-radius: 0;}
+.tbl_cat_upload select option {padding-right: 18px !important; font-weight: 300; padding-left: 2px; padding-top: 2px;}
+
+
+
+#searchbox {width: 239px; max-width: 100% !important; float: right;}
+#searchbox > div {position: relative;}
+#searchbox i {position: absolute; top: 0px; right: 0px; z-index: 2; width: 34px; height: 34px; line-height: 34px !important; text-align: center;}
+#searchbox input {height: inherit; padding-right: 42.5px;}
+
+.fa {
+    display: inline-block;
+    font-family: FontAwesome;
+    font-style: normal;
+    font-weight: normal;
+    line-height: 1;
+    font-size-adjust: none;
+    font-stretch: normal;
+    font-feature-settings: normal;
+    font-language-override: normal;
+    font-kerning: auto;
+    font-synthesis: weight style;
+    font-variant: normal;
+    font-size: inherit;
+    text-rendering: auto;
+    transform: translate(0px, 0px);
+}
+
+.fa-skype {color: #12A5F4;}
+
+
+#backoffice .trader_name a {color: inherit;}
+#backoffice .trader_name em {font-style: normal; font-weight: 600;}
+#backoffice .trader_files {background-color: #2B9; float: right; font-size: 10px; border-radius: .3em; line-height: 1.75em; padding: 0 .6em; color: #fff !important;}
+#backoffice a:hover.trader_files {text-decoration: none !important; background-color: #48C9B0 !important;} #backoffice #f {margin-top: 0 !important;}
+#backoffice th {cursor: inherit;} #backoffice .tbl_crea {width: 11em; text-align: center;}
+#backoffice option, #uploads option {background: #fff; color: #000; padding-left: 6px;}
+#backoffice .opt_new {background: #2B9; color: #fff;}
+#backoffice .opt_inactive, #backoffice .opt_delete {background: #f44; color: #fff;}
+#backoffice td.edit select {padding-left: 4px; border: none; border-radius: 0; font-size: 1rem; outline: none; margin: 0; height: 2em;}
+
+tbody tr:hover {background-color: #f4f4f4 !important;}
+
+.m_forex, .m_metals, .m_cfds  {color: #fff; font-size: 10px; line-height: 1.7em; margin-bottom: .5em; border-radius: 3px; text-align: center; letter-spacing: .1em;}
+.m_forex  {background-color: #9b0;}
+.m_metals {background-color: #39c;}
+.m_cfds   {background-color: #d24;}
+
+#tbl_personal input[type="text"] {height: 2em; margin: 0px; border: none; border-radius: 0; padding: 2px 8px 0 8px; max-width: inherit; /*background: #dff0d8;*/}
+#tbl_personal .col {height: 2em;}
+/*#tbl_personal :not(.col) {padding: 0;}*/
+#tbl_personal .edit {padding: 0;}
+#tbl_personal .two input {display: inline;}
+#tbl_personal .two input:first-child {width: 30%; border-right: 1px solid #ddd;}
+#tbl_personal .two input:last-child {width: 70%;}
+
+input.autocomplete {display: none !important;}
+
+#crm #delete {box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.25); border-radius: 4px;}
+#crm #delete h2 {font-size: 1.125em; font-weight: 500; background-color: #f44; color: #fff; padding: .75em 1.11em;}
+#crm #delete div {padding: 20px;}
+#crm #delete div:last-child {margin-top: 25px; text-align: right; border-top: 1px solid #ddd;}
+#crm #delete div input[type="submit"] {width: inherit; display: inline-block; border: 0; padding: 6px 12px; margin-bottom: 0; font-size: 14px;}
+#crm #delete div #del-close {background: #e1e1e1; color: #333 !important; border: 1px solid #ddd;}
+#crm #delete div #del-close:hover {background: #ededed;}
+#crm #delete div #del-submit {background: #f44; color: #fff !important; border: 1px solid #ddd; border: 1px solid #f44;}
+#crm #delete div #del-submit:hover {background: #f00;}
+
+
+#tbl_stat {margin-bottom:4em; box-shadow: 0 1px 1px 0 rgba(0,0,0,0.2);}
+#tbl_stat td:first-child {border-left: solid 1px #ddd; font-size: 1.5em; font-weight: 600; overflow: hidden; white-space: nowrap; color: #000;}
+#tbl_stat td {width: 20%; text-align: center; border-right: solid 1px #ddd; /*padding: 20px 0;*/ vertical-align: middle; padding: 1em 0;}
+#tbl_stat td span:first-child {display: block; color: #2c2c2c; font-size: 22px; line-height: 30px;}
+#tbl_stat td span:last-child {display: block; text-transform: uppercase; font-size: 12px; color: #777; line-height: 14px;}
+
+#tbl_stat tr:nth-child(even) {background-color: #f4f4f4;}
+#tbl_stat span.green{color: #83D30F !important; font-weight: 500;}
+#tbl_stat span.red {color: #e1191d !important;}
+
+#tbl_stat span a {color:#777;}                                                           
+#tbl_stat span a:hover {color:#2c2c2c; text-decoration:none !important; font-weight:600;}
+#tbl_stat span a i {display:block; font-size:2em; padding-bottom:.1em;}
+
+
+#tbl_ats {margin-bottom:4em; box-shadow: 0 1px 1px 0 rgba(0,0,0,0.2);}
+#tbl_ats td:first-child {border-left: solid 1px #ddd; font-size: 1.5em; font-weight: 600; overflow: hidden; white-space: nowrap; color: #000; padding-top: .1em;}
+#tbl_ats td {width: 20%; text-align: center; border-right: solid 1px #ddd; vertical-align: middle; padding:0;}
+#tbl_ats td span:first-child {display: block; color: #2c2c2c; font-size: 22px; line-height: 30px;}
+#tbl_ats td span:last-child {display: block; text-transform: uppercase; font-size: 12px; color: #777; line-height: 14px;}
+
+#tbl_ats tr:nth-child(even) {background-color: #f4f4f4;}
+#tbl_ats span.green{color: #83D30F !important; font-weight: 500;}
+#tbl_ats span.red {color: #e1191d !important;}
+
+#tbl_ats a {font-size:12px; color:#777; display:block; padding: 22px 0 1.25em 0;}
+#tbl_ats a:hover {color:#2c2c2c; text-decoration:none !important; font-weight:600;}
+#tbl_ats a i {display:block; font-size:2em;}
+
+
+#banner {width:100%; margin:0 auto; background:#0f255d; padding-right:1.7em;}
+#banner>div {max-width:1240px; margin:0 auto; padding:0 0 0 2em; background:url('http://121fxresearch.com/images/index_banner.jpg') no-repeat right top; height:130px;}
+#banner>div>div>div {font-size:35px; position:relative; line-height:.54em; white-space:nowrap; top:60px;}
+#banner>div>div>div em {font-size:12px; letter-spacing:3px; padding-left:3px;}
+
+
+.sep {width:58%; margin:3em auto; height:2px; background:#9f9f9f; clear:both;}
+
+.forex_world img {float: left; margin-right: 3em;}

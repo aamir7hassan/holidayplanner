@@ -1,0 +1,204 @@
+.se_del .confirm {
+	background-color: #d9534f;
+	border-color: #d43f3a;
+}
+
+.text-open     {color: #ffc241 !important;}
+.text-approved {color: #28a745 !important;}
+.text-rejected {color: #d9534f !important;}
+
+.tbl_rating_del-button {color:#a94442;position:absolute;}
+
+.bg-open, .avg_yellow {background: #ffc241 !important;color:#fff;}
+.bg-approved {background: #28a745 !important;color:#fff;}
+.bg-rejected {background: #d9534f !important;color:#fff;}
+
+.avg {display: inline-block; line-height: 22px; border-radius: 4px; width: 7em; color: #fff; text-transform:uppercase;}
+.avg_green  {background-color:#9b0; color:#fff !important;}
+.avg_red    {background-color:#d24; color:#fff !important;}
+.avg_kontrolle {font-size: .85em; width:12em !important; letter-spacing: .1em; text-align: center;}
+
+
+.cl_dv_rating {width:2em !important;margin: 0 5em;}
+
+.cl_text-objekt {color:#000 !important;}
+
+.x_title .text-open, .x_title .text-approved, .x_title .text-rejected {font-weight:700}
+
+@media screen and (max-width: 767px) {
+    .top_nav li>a>i {display:inline-block; width: 2em;}
+    .navbar-nav {margin: 0 !important;}
+    .navbar-nav>li>a {padding-left: 1.25em;}
+}
+
+@media screen and (max-width:1300px) {
+    /*.admin_name {display:none;}*/
+}
+
+
+.table-rating tr td {
+	width: 10%;
+	border: 0px solid #ddd !important;
+	border-bottom: 1px solid #ddd !important;
+}
+
+.table-rating tr td .btnn {
+	width:3em; margin:0 auto;
+}
+
+.table-rating tr td:first-child {
+	text-align: left;
+	padding-left: 2em;
+	width: 40%;
+}
+
+.table-rating>tbody>tr:hover {
+	background-color:#15abe5;
+	color:#fff;
+}
+
+.tbl>tbody>tr:hover {background-color:#15abe5;color:#fff !important;}
+.tbl>tbody>tr:hover span, .tbl>tbody>tr:hover i {color:#fff !important;}
+
+.rating_first_tr {
+	border-bottom: 2px solid #6c6c6c !important;
+	border-top: 2px solid #6c6c6c !important;
+}
+
+.rating_first_tr td:first-child {color:#6c6c6c;font-weight:600;}
+.rating_first_tr td {background:#263949 !important;color:#fff !important;}
+
+rating_first_tr
+
+
+.rating_first_tr:hover {
+	background-color:inherit !important;
+	color:inherit;
+}
+		
+.lohnmanager_th {min-width:8em;}
+
+
+
+.bold {
+	font-weight:bold;
+}
+.error {
+	color:red;
+	font-size:17px;
+}
+
+.iconss {
+	/*font-size:20px; font-weight:200;*/
+	font-size: 1.5em;
+	padding: 0 .3em;
+}
+
+.iconss:last-child {
+	/*padding-left:14px;*/
+}
+
+#tbl_info {
+	display:none;
+}
+
+table.dataTable tbody th, table.dataTable tbody td {
+	padding: 11px 8px 8px 8px !important;
+	vertical-align: middle;
+	text-align:center;
+}
+.panel_toolbox>li>a:hover,.panel_toolbox>li>a:focus {
+    background: #17927a !important;
+}
+input[type=number] {
+    height: 35px;
+}
+
+input[type=number]:hover::-webkit-inner-spin-button {
+    width: 14px;
+    height: 35px;
+}
+.nav-md .container.body .right_col {
+    /* padding: 10px 20px 0; */
+		padding:10px !important;
+    margin-left: 0px !important;
+   min-height:inherit !important;
+}
+.main_container .top_nav {
+    display: block;
+    margin-left: 0px !important;
+}
+.maxi {
+	max-width:100%;
+}
+
+.top_nav .navbar-right {
+    margin: 0;
+    /*width: 15%;
+    float: right;
+		padding-top: 20px;
+    padding-right: 13px;*/
+    white-space: nowrap;
+}
+.name:hover {
+	background-color:transparent !important;
+}
+
+@media print {
+  .hidden-print, .panel_toolbox, .top_nav {
+    display: none !important;
+  }
+}
+
+#mbody {
+	overflow-y: scroll;
+}
+li.active {/*background-color: #ccc;*/background-color: #15abe5;}
+.incenter {
+	text-align:center;
+}
+
+
+
+.status {
+    color: #fff;
+    font-weight: bold;
+    text-transform: uppercase;
+    padding: 5px 10px;
+    line-height: 1;
+    text-align: center;
+    vertical-align: baseline;
+    font-size: .75em;
+    width: 10em !important;
+    letter-spacing: .1em;
+    border-radius: 3px;
+    margin: 0 auto;
+}
+
+.aktiv, .geprueft {background-color: #9b0;}
+.gesperrt, .ungeprueft {background-color: #d24;}
+.quartal {background-color: #2196f3;}
+
+
+.fa-check-circle:before {
+	color: #9b0 !important;
+}
+
+.urlaubsanspruch th {width:33.3%}
+
+.weekday a.btn {width:12em !important;}
+
+
+.table.details th, .table.details td {text-align: left;}
+.table.details th {width: 20em;}
+.details th {white-space: nowrap;}
+
+.tbl_notif_email {text-align:left; padding-left:1em !important;}
+
+.navbar-right li div {float:left;padding-top:4px;line-height:56px;}
+.navbar-right li a {float:right;margin-right:9px;}
+
+.dashboard_big_icon {margin-right:1em;}
+
+.menu_logout {padding-top: 0 !important;}
+.menu_logout i {padding-top:4px; line-height: 56px;}
